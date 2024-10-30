@@ -1,0 +1,41 @@
+{
+    "Search": [
+        {
+            "Title": "ASD Band: The Movie",
+            "Year": "2022",
+            "imdbID": "tt19498174",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BY2EyYjZlYWItMTdhZi00Njk2LTlhOTMtZDBhMDNhMWU1YjQxXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Hvordan er det å ha barn med ASD?",
+            "Year": "2014",
+            "imdbID": "tt12611270",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "Hvordan er det å ha søsken med ASD?",
+            "Year": "2014",
+            "imdbID": "tt12618970",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "Om å ha ASD og ta høyere utdanning",
+            "Year": "2014",
+            "imdbID": "tt12619002",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "Shukriya: ASD",
+            "Year": "2018",
+            "imdbID": "tt13932622",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjNlZTlmOTktYzExYi00ZWVmLWI3NjMtMmVmYmNjNDZkYjEwXkEyXkFqcGdeQXVyMTAyNTAxMDQx._V1_SX300.jpg"
+        }
+    ],
+    "totalResults": "5",
+    "Response": "True"
+}

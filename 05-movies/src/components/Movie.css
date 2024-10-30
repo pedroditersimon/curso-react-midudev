@@ -1,0 +1,14 @@
+.movie {
+    margin: auto;
+    text-align: center;
+}
+
+.movie img {
+    border-radius: 7px;
+}
+
+.movie h3, .movie p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5vw;
+}

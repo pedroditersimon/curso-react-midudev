@@ -12,4 +12,4 @@
 - [x] Lazy Loading de las rutas
 - [x] Hacer un i18n con las rutas
 - [] Testing
-- [] Publicar el paquete en NPM
+- [x] Publicar el paquete en NPM

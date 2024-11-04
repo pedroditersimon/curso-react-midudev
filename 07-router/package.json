@@ -1,21 +1,35 @@
 {
-  "name": "07-router",
-  "private": true,
-  "version": "0.0.0",
+  "name": "pedro-router",
+  "private": false,
+  "version": "0.0.8",
   "type": "module",
+  "main": "lib/src/index.js",
+  "module": "lib/src/index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/src/index.js",
+      "require": "./lib/src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "swc ./src -d ./lib --ignore **/App.jsx,**/main.jsx"
   },
   "dependencies": {
-    "path-to-regexp": "8.2.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "path-to-regexp": "8.2.0"
+  },
+  "peerDependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@swc/cli": "^0.5.0",
+    "@swc/core": "^1.8.0",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react-swc": "^3.5.0",

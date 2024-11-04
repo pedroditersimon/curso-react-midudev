@@ -1,7 +1,7 @@
 
 import { Children, useEffect, useState } from 'react';
 import { EVENTS } from '../utils/consts.js';
-import NotFoundPage from '../Pages/NotFoundPage.jsx';
+import NotFoundPage from '../Pages/NotFoundPage';
 
 import { match } from 'path-to-regexp';
 
@@ -35,6 +35,7 @@ export function Router({ children, routes = [], DefaultComponent = NotFoundPage 
     const routesToUse = routes.concat(routesFromChildren);
 
     const Page = routesToUse.find(r => {
+        if (r === undefined) return false;
         if (r.path === currentPath) return true;
 
         const matcherUrl = match(r.path, { decode: decodeURIComponent });

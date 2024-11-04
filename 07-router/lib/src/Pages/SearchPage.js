@@ -1,0 +1,1 @@
+import{jsxs as _jsxs}from"react/jsx-runtime";export default function SearchPage({routeParams}){return /*#__PURE__*/_jsxs("h1",{children:["Has buscado: ",routeParams.query]})}

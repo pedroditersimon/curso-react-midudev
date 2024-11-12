@@ -6,3 +6,4 @@
 - State Rollback
 - Sonner
 - Tremor
+- Rome (lint)
